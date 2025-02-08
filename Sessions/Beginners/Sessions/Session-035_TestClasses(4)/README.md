@@ -49,8 +49,8 @@ This session includes **test classes** and implementation files related to the f
 ---
 
 ## 📌 **Homework for This Session**
-Attendees are encouraged to complete the **homework assignment** located in the repo under:  
-📂 `../Homeworks/Topic_Introduction to Apex Unit Tests/Homework-Instructions.md`
+Attendees are encouraged to complete the **homework assignment** located here:  
+📂 **[Homework Instructions](../../Homeworks/Topic_Introduction%20to%20Apex%20Unit%20Tests/Homework-Instructions.md)**  
 ---
 
 ## 🔗 **Useful Links**
