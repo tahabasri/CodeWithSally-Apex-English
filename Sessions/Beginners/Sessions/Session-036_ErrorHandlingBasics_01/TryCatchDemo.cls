@@ -38,4 +38,8 @@ public class TryCatchDemo {
         
         } catch (Exception e) {  
             System.debug('Unexpected Error: ' + e.getMessage()); 
-        }final
+        }finally {  
+            System.debug('✅ Log: Account creation attempted.');
+        }
+    }
+}

@@ -1,13 +1,30 @@
+# Salesforce Apex: Exception Handling Basics & Try-Catch Explained - Part 1  
 
-What Is Apex Error Handling?
-- ErrorHandlingExample class (to explain difference between handled and unhandled error and user friendly message)
+## 🚀 Overview  
+This session introduces **exception handling** in Salesforce Apex, covering:  
+✔ What are **exceptions** and why they happen?  
+✔ How **unhandled exceptions** can break your code.  
+✔ Why **proper error handling** is crucial for stability.  
+✔ Understanding **system exceptions vs. custom exceptions**.  
+✔ Implementing **try-catch-finally** with real-world examples.  
 
-Common Scenarios Needing Error Handling
-- ErrorHandlingScenarios class (to demonstrate the different type of exceptions and when they would happen)
-                               (serves to show the different exception types in the system - system exception)
-Types of Exceptions in Apex
-- MissingRequiredFieldException class (to demonstrate how to create custom exception)
-- AccountService class method createAccount (to demonstrate how to throw )
+## 📌 Topics Covered  
+1️⃣ **What are Exceptions & Why Do They Happen?**  
+2️⃣ **Unhandled vs. Handled Exceptions – Live Demo**  
+3️⃣ **Why Is Error Handling Important?**  
+4️⃣ **Common Exception Types in Apex**  
+5️⃣ **System Exceptions vs. Custom Exceptions**  
+6️⃣ **How to Define & Throw Custom Exceptions in Apex**  
+7️⃣ **Try-Catch Blocks: Best Practices & Implementation** 
 
-Using Try-Catch Blocks for Exception Handling
-- TryCatchDemo (demonstrate how to catch different exception types, generic, custom and how finally works)
+## 🔥 Live Code Examples in This Session  
+The following **Apex classes** are used in this session:  
+✔ **ErrorHandlingExample.cls** – Handled vs. Unhandled Exception  
+✔ **ErrorHandlingScenarios.cls** – Common System Exceptions  
+✔ **MissingRequiredFieldException.cls** – Defining Custom Exceptions  
+✔ **AccountService.cls** – Throwing Custom Exceptions  
+✔ **TryCatchDemo.cls** – Implementing Try-Catch-Finally  
+
+## 📌 Resources  
+🎥 **Watch the Full Session on YouTube**: [https://youtu.be/OvRbFhtRzSM](https://youtu.be/OvRbFhtRzSM)  
+🔗 **More Salesforce Apex Tutorials**: [https://codewithsally.com/]  
