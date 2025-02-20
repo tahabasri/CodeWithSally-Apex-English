@@ -1,4 +1,4 @@
-public class MathUtility {
+public class MathUtility { //MathUtilityTest 
     
     //Static Method Signature
     //accessModifier static returnType methodName(Parameters)
@@ -20,7 +20,7 @@ public class MathUtility {
         if (num2 == 0) {
             throw new IllegalArgumentException('Cannot divide by zero');
         }
-        return (num1*2) / num2;
+        return num1 / num2;
     }
 
     public Integer SubtractNumbers(Integer number1,Integer number2){ 

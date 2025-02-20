@@ -4,10 +4,11 @@ public class DiscountUtility {
         if (amount < 0) {
             throw new IllegalArgumentException('Amount cannot be negative.');
         }
+        //logic
         return amount * 0.10;
     }
     
-    public static Decimal calculateDiscountWithTryCatch(Decimal amount) {
+    /*public static Decimal calculateDiscountWithTryCatch(Decimal amount) { //not recommended 
         try{
             if (amount < 0) {
                 throw new IllegalArgumentException('Amount cannot be negative.');
@@ -17,5 +18,5 @@ public class DiscountUtility {
             system.debug('no exception thrown...we are in DiscountUtility');
         }
         return 0;
-    }
+    }*/
 }
