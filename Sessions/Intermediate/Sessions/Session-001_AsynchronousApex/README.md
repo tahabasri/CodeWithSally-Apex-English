@@ -37,7 +37,7 @@ https://youtu.be/7TfYHD5TaA4
 
 ## 🙏 Special Thanks
 
-Big thanks to **Waleed El Hor** for recommending the API used in our live demo!
+Big thanks to **Walid El Horr** for recommending the API used in our live demo!
 
 ---
 
