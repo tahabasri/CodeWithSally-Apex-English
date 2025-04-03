@@ -11,7 +11,7 @@ public class MixedDMLErrorDemo {
         // Call future method to insert a user with a role.
         insertUserWithRole(
             'ss@codeWithSally.com', 'SCode', 
-            'sally.elghoul@yalla-cloud.com', 'SCode');
+            'sally.elghoul@Testcloud.com', 'SCode');
     }
     
     @future
