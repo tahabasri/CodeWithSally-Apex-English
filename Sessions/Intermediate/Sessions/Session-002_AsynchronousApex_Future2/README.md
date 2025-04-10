@@ -26,15 +26,6 @@ This session is the **final part of our deep dive into Future Methods** in Sales
   - No chaining support
   - How these affect architecture choices
 
----
-
-## 🧪 Folder Structure & File Descriptions
-
-Session-002_AsynchronousApex_Future2/ │ ├── FutureMethodOrder/ │ └── FutureOrderDemo.cls # Demonstrates lack of control over future execution order │ ├── JSON Sample/ │ ├── SampleDeserialize.txt # Code to deserialize JSON into Apex │ ├── SampleSerialize.txt # Code to serialize Apex objects to JSON │ └── SimpleCountryWrapper.cls # Wrapper class for the country API response │ ├── MixedDML/ │ ├── MixedDMLErrorDemo_WithSolution.cls # Code showing how to fix Mixed DML with @future │ ├── MixedDMLErrorDemoTest.cls # Unit test class for Mixed DML logic │ ├── TriggerCallout/ │ ├── classes/ │ │ ├── CountryCalloutUtility.cls # Makes HTTP callout to country API │ │ ├── CountryMockResponse.cls # Mocks API response for unit testing │ │ ├── CountryTriggerHandler.cls # Uses @future(callout=true) to invoke utility │ │ ├── CountryTriggerHandlerTest.cls # Test class using HttpCalloutMock │ │ └── CountryWrapper.cls # Apex wrapper for deserializing JSON │ ├── flexipages/ │ │ └── Country_Record_Page.flexipage-meta.xml │ ├── layouts/ │ │ └── Country__c-Country Layout.layout-meta.xml │ ├── Objects/Country__c/ │ │ └── Country__c.object-meta.xml │ ├── postmanCollection/ │ │ └── REST Countries API.postman_collection.json │ ├── remoteSiteSettings/ │ │ └── CountryEndPoint.remoteSite-meta.xml │ └── triggers/ │ └── CountryTrigger.trigger
-
-
----
-
 ## 🧠 Developer Resources
 
 - [Apex JSON Class Reference](https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Json.htm#apex_System_Json_serialize)
