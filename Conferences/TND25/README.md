@@ -1,4 +1,4 @@
-# TND25 - Agentforce for Developers - COMING SOON
+# TND25 - Agentforce for Developers 
 
 This folder contains resources used during the TND25 session: **"Agentforce for Developers - From Prompt to Productivity"**, part of the CodeWithSally initiative.
 
