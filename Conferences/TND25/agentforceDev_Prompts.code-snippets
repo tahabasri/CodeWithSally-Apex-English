@@ -1,0 +1,115 @@
+{
+	"Agentforce: Compare Two Apex Concepts": {
+	  "prefix": "prompt_dynamic_compare_apex",
+	  "body": [
+		"Explain to me the difference between ${1:concept1} and ${2:concept2} in Apex.",
+		"Tell me when I should use each of them.",
+		"Give me example of each with comments in the code to understand more.",
+		"Tell me the best practices to follow when writing each.",
+		"Show me how to write unit test methods for each of them in an Apex test class and provide Apex code sample.",
+		"Assume I am a beginner with some knowledge of Apex.",
+		"Give me a summary at the end for all your explanation."
+	  ],
+	  "description": "Prompt template to compare two Apex concepts (e.g., static vs non-static), with examples and best practices."
+	},
+	"Agentforce: Get Supported Countries with Logging": {
+		"prefix": "prompt_apex_supported_countries",
+		"body": [
+		"Write a SOQL query inside an Apex class method that will be used by a Lightning Web Component (LWC).",
+		"The query should retrieve records from the custom object Country__c where IsSupported__c = true.",
+		"Only retrieve the fields: Capital__c, FlagURL__c, MapURL__c, and Region__c.",
+		"Separate operators with a new line.",
+		"Follow Apex best practices for performance, security, and naming conventions.",
+		"",
+		"- Name the list of countries lstCountries.",
+		"- Include try/catch for proper error handling using AuraHandledException with a user-friendly message.",
+		"- Use LIMIT to avoid hitting governor limits and ensure safe query volume. Limit the query to return the maximum number of record a query can get",
+		"- Add a method-level comment explaining what the method does.",
+		"- Make the method reusable and expose it to LWC using @AuraEnabled(cacheable=true).",
+		"Log any caught exceptions using the Nebula logger, error logging code sample logger.error('Error: ' + e.getMessage()).",
+		"- Include Logger.saveLog(); in a finally block.",
+		"- Include comments in the code to explain each step."
+		],
+		"description": "Prompt to generate Apex method with SOQL, error handling, Nebula logging, and LWC exposure."
+	},
+	"Agentforce: lwc get method with Logging": {
+		"prefix": "prompt_dynamic_apex_getLwc_Data",
+		"body": [
+		"Write a SOQL query inside an Apex class method that will be used by a Lightning Web Component (LWC).",
+		"The query should retrieve records from the custom object ${1:ObjectAPI} where ${2:WhereClause}.",
+		"Only retrieve the fields: ${3:Fields}",
+		"Separate operators with a new line.",
+		"Follow Apex best practices for performance, security, and naming conventions.",
+		"",
+		"- Name the list of countries lstCountries.",
+		"- Include try/catch for proper error handling using AuraHandledException with a user-friendly message.",
+		"- Use LIMIT to avoid hitting governor limits and ensure safe query volume. Limit the query to return the maximum number of record a query can get",
+		"- Add a method-level comment explaining what the method does.",
+		"- Make the method reusable and expose it to LWC using @AuraEnabled(cacheable=true).",
+		"Log any caught exceptions using the Nebula logger, error logging code sample logger.error('Error: ' + e.getMessage()).",
+		"- Include Logger.saveLog(); in a finally block.",
+		"- Include comments in the code to explain each step."
+		],
+		"description": "Prompt to generate Apex method with SOQL, error handling, Nebula logging, and LWC exposure."
+	},
+	"Agentforce: Call divideNumbers from Controller": {
+		"prefix": "prompt_call_divideNumbers_controller",
+		"body": [
+		"Show me how to call the divideNumbers method from the MathUtility class inside an Apex controller that will be called from a Lightning Web Component (LWC).",
+		"Wrap the call in a try/catch block.",
+		"Log any errors using Nebula logger (logger.error('Error: ' + e.getMessage())).",
+		"Include Logger.saveLog() in a finally block.",
+		"Throw a user-friendly error using AuraHandledException.",
+		"Follow Apex best practices for naming, caching (if appropriate), and error handling.",
+		"Include comments to explain each step.",
+		"Assume the method receives two decimal numbers from the LWC and returns the result of the division."
+		],
+		"description": "Prompt to call divideNumbers from MathUtility directly in an Apex controller for LWC, with proper logging and error handling."
+	},
+	"Agentforce: Trigger Handler Template (Static Methods)": {
+		"prefix": "prompt_dynamic_trigger_handler_static",
+		"body": [
+		"Generate an Apex trigger handler class for the object ${1:Object}__c.",
+		"",
+		"Follow these rules:",
+		"- Use static methods only.",
+		"- Use correct capitalization: List and Map (not list/map).",
+		"- Name methods like onBeforeInsert, onAfterUpdate, etc.",
+		"- Use parameter names like: lstNew${1}s, lstOld${1}s, mapNew${1}s, mapOld${1}s.",
+		"- Match context variables properly for each trigger event.",
+		"",
+		"Include all 7 trigger events: before insert, after insert, before update, after update, before delete, after delete, after undelete.",
+		"",
+		"Also generate a sample trigger for ${1} using Trigger.operationType with a switch block.",
+		"- Call the appropriate handler method from each switch case.",
+		"- Follow best practices for code organization and commenting."
+		],
+		"description": "Prompt to generate static Apex trigger handler methods with correct params and a sample trigger using operationType switch logic."
+	},
+	"Agentforce: Explain Apex Class Deeply": {
+		"prefix": "prompt_dynamic_explain_class_detailed",
+		"body": [
+		"Explain the class ${1:className} to me in detail.",
+		"",
+		"- Start with a high-level summary of what the class is used for and when it's typically needed.",
+		"- Then go through each method one by one:",
+		"  • Explain what the method does",
+		"  • Describe its parameters and their purpose",
+		"  • Mention the return type and what is returned",
+		"  • Note any exceptions or special conditions to handle",
+		"  • Add best practices or tips for using it",
+		"",
+		"- Use beginner-friendly language where possible.",
+		"- Add a short example of how one or two key methods might be called.",
+		],
+		"description": "Explains an Apex class: big-picture summary + detailed method-by-method breakdown with tips."
+	} ,
+	"Agentforce: Exact JSON Wrapper Prompt": {
+		"prefix": "prompt_json_wrapper_exact",
+		"body": [
+		"create json wrapper class in which i can deserialize this json { \"firstName\": \"Alice\", \"lastName\": \"Smith\", \"gender\": \"female\", \"age\": 32, \"address\": { \"streetAddress\": \"202\", \"city\": \"Los Angeles\", \"state\": \"CA\" }, \"phoneNumbers\": [ { \"type\": \"mobile\", \"numberValue\": \"9876543210\" } ] }"
+		],
+		"description": "Exact text to prompt generating wrapper class for Alice JSON."
+	}
+  }
+  
