@@ -6,11 +6,11 @@ public class BackfillOldOpportunities implements Database.Batchable<sObject> {
         );
     } //1000 record
 
-    //chunck 1 :200
-    //chunck 2 :200
-    //chunck 3 :200
-    //chunck 4 :200
-    //chunck 5 :200
+    //chunk 1 :200
+    //chunk 2 :200
+    //chunk 3 :200
+    //chunk 4 :200
+    //chunk 5 :200
     public void execute(Database.BatchableContext bc, List<Opportunity> lstOpportunities) {
         try{
             for (Opportunity opp : lstOpportunities) {
