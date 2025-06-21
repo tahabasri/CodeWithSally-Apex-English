@@ -21,6 +21,9 @@ This session is part of our Asynchronous Apex series. We focus on understanding 
 ## 🧪 Demo Class  
 - `SimpleScheduledJob.cls`: Basic implementation of a scheduled job.
 
+## 🧠 Useful Resource  
+- [Flow vs Trigger: Salesforce Decision Guide](https://architect.salesforce.com/decision-guides/trigger-automation)
+
 ## 🙌 Thanks to our attendees from Salesforce African Ohana!
 
 Follow along on the [Code With Sally YouTube Channel](https://www.youtube.com/@CodeWithSally) for more beginner-friendly Salesforce Apex tutorials!
