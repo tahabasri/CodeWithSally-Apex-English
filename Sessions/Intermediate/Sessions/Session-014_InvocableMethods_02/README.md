@@ -1,5 +1,7 @@
 # 🚀 Session 014 - Invocable Methods (Part 2)
 
+📺 **Watch the session on YouTube**: [https://youtu.be/MsVQomNIsms](https://youtu.be/MsVQomNIsms)
+
 This session builds on our previous work with invocable methods by demonstrating:
 
 - Passing **single values**, **lists**, and **wrapper classes** to invocable methods
