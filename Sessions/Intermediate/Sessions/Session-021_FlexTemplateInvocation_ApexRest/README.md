@@ -1,0 +1,60 @@
+# Session 021 – How to Invoke Flex Prompt Templates in Salesforce (REST API + Apex Demo)
+
+This session is a continuation of our Flex Prompt Template exploration.  
+Previously, we built a Flex Prompt Template and grounded it with Apex.  
+In this session, we focus on **how to invoke Flex Templates**, since unlike Sales Email or Field Generation templates, Flex Templates don’t have out-of-the-box entry points.
+
+📺 **Watch the full video here:**  
+👉 [YouTube Session 021](https://youtu.be/d8R28w2Hl9Y)
+
+---
+
+## 🌟 What You’ll Learn
+- 🔁 Why Flex Templates need custom invocation
+- 🌐 How to call Flex Templates using **REST API** (via Workbench)
+- 📖 How to read Salesforce documentation for **Einstein Prompt Template Generations API**
+- 🧩 Step-by-step building of the REST request and testing in Workbench
+- ⚡ How Salesforce wraps REST resources into **ConnectAPI static methods** in Apex
+- 🖥️ How to invoke Flex Templates from **Apex** using `ConnectApi` namespace
+- 🧑‍💻 Live demo of building a static method to handle Flex invocation
+- 🔗 Using the new method from **LWC** (`sessionPackHub` component)
+- ✅ Recap of differences between REST vs. Apex invocation
+- 🎓 Sneak peek of upcoming short video: **invoking Flex Templates from Flow**
+
+---
+
+## 📂 Repo Structure
+This folder contains the code and metadata used in this session:
+Session-021_FlexTemplateInvocation_ApexRest
+│
+├── classes/
+│ ├── CustomException.cls
+│ ├── PromptTemplateService.cls
+│ ├── SessionPackController.cls
+│ └── (metadata files)
+│
+├── genAiPromptTemplates/
+│ ├── CWS_Session_Pack_Generator_Enhanced.genAiPromptTemplate-meta.xml
+│
+├── lwc/sessionPackHub/
+│ ├── sessionPackHub.html
+│ ├── sessionPackHub.js
+│ ├── sessionPackHub.css
+│ └── sessionPackHub.js-meta.xml
+│
+├── layouts/
+│ ├── Playlist__c-Layout.layout-meta.xml
+│ ├── VideoPlaylist__c-Layout.layout-meta.xml
+│ └── YoutubeVideo__c-Layout.layout-meta.xml
+│
+└── objects/
+├── Playlist__c
+├── VideoPlaylist__c
+└── YoutubeVideo__c
+
+---
+
+## 🔗 Helpful Links
+- **Workbench (REST Explorer):** https://workbench.developerforce.com/login.php?startUrl=%2FrestExplorer.php  
+- **Einstein Prompt Template Generations API Docs:** https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/connect_resources_prompt_template.htm  
+- **JSON Formatter:** https://jsonformatter.curiousconcept.com/#  
