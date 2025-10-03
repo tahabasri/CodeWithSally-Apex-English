@@ -23,34 +23,48 @@ In this session, we focus on **how to invoke Flex Templates**, since unlike Sale
 
 ---
 
-## 📂 Repo Structure
-This folder contains the code and metadata used in this session:
-Session-021_FlexTemplateInvocation_ApexRest
-│
-├── classes/
-│ ├── CustomException.cls
-│ ├── PromptTemplateService.cls
-│ ├── SessionPackController.cls
-│ └── (metadata files)
-│
-├── genAiPromptTemplates/
-│ ├── CWS_Session_Pack_Generator_Enhanced.genAiPromptTemplate-meta.xml
-│
-├── lwc/sessionPackHub/
-│ ├── sessionPackHub.html
-│ ├── sessionPackHub.js
-│ ├── sessionPackHub.css
-│ └── sessionPackHub.js-meta.xml
-│
-├── layouts/
-│ ├── Playlist__c-Layout.layout-meta.xml
-│ ├── VideoPlaylist__c-Layout.layout-meta.xml
-│ └── YoutubeVideo__c-Layout.layout-meta.xml
-│
-└── objects/
-├── Playlist__c
-├── VideoPlaylist__c
-└── YoutubeVideo__c
+## 📑 Contents
+
+### 1. Apex Classes
+- **`CustomException.cls`**  
+  Custom exception handling class for reusable error management.  
+- **`PromptTemplateService.cls`**  
+  Service class wrapping logic to call Flex Prompt Templates via Connect API in Apex.  
+- **`SessionPackController.cls`**  
+  Apex controller used for invoking and testing Flex Prompt Template execution from Apex.  
+
+---
+
+### 2. genAiPromptTemplates
+- **`CWS_Session_Pack_Generator_Enhanced.genAiPromptTemplate-meta.xml`**  
+  Flex Prompt Template for generating YouTube session content pack (title, description, timestamps, and announcements).  
+
+---
+
+### 3. Lightning Web Component (LWC)
+- **`sessionPackHub.html / .js / .css / .js-meta.xml`**  
+  Custom LWC to manage session input/output and invoke Flex Prompt Template.  
+
+---
+
+### 4. Custom Objects
+- **`YoutubeVideo__c`**  
+  Represents a YouTube video with description, timestamps, and related metadata.  
+- **`Playlist__c`**  
+  Represents a video playlist (e.g., “Intermediate Apex Sessions”).  
+- **`VideoPlaylist__c`**  
+  Junction object linking `YoutubeVideo__c` and `Playlist__c`.  
+
+---
+
+### 5. Page Layouts
+- **`Playlist__c-Layout.layout-meta.xml`**  
+  Layout configuration for Playlist object.  
+- **`VideoPlaylist__c-Layout.layout-meta.xml`**  
+  Layout configuration for VideoPlaylist object.  
+- **`YoutubeVideo__c-Layout.layout-meta.xml`**  
+  Layout configuration for YoutubeVideo object.  
+
 
 ---
 
