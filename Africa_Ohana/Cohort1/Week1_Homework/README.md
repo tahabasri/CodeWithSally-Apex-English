@@ -1,11 +1,10 @@
-# Week 2 – Apex Fundamentals (Variables, Logic, Loops, Collections)
+# Week 1 – Apex Fundamentals (Variables, Logic, Loops, Collections)
 
 📅 **To be completed between: Nov 18 → Nov 25**
 
 This week focuses on the fundamentals of Apex:
-- Primitive data types  
 - Variables  
-- String & Date methods  
+- Primitive data types and their methods
 - Conditional logic (if/else, else-if, ternary, switch)  
 - Loops (while, do-while, for, for-each, break/continue)  
 - Intro to Collections (Lists + Sets)
