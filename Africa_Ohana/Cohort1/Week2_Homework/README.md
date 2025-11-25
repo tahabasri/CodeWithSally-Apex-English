@@ -18,43 +18,43 @@ You will learn:
 
 Below are the required videos for Week 2:
 
-1. Navigating Collections – Mastering Maps – Part 3  (Must Watch)
+1. Navigating Collections – Mastering Maps – Part 3  **(Must Watch)** : 
    https://youtu.be/n8fqbukK1Fo?si=NRsG4xwEBms6Hp1p  
 
-2. Collections Comparison & Homework – Part 4        (Must Watch)
+2. Collections Comparison & Homework – Part 4        **(Must Watch)** : 
    https://youtu.be/xqStLbzO9qc?si=hCvHXp3CRD3XdFgs  
 
-3. Introduction to OOP – Part 1                      (Must Watch)
+3. Introduction to OOP – Part 1                      **(Must Watch)** :
    https://youtu.be/tbiXL85-6e0?si=FWnUqDgYAAlzkjN8  
 
-4. Methods & Constructors – Part 2                   (Must Watch)
+4. Methods & Constructors – Part 2                   **(Must Watch)** :
    https://youtu.be/XrlsaDUO0lI?si=JF7yVLt2i1bMOhP3  
 
-5. Static Methods & this Keyword – Part 3            (Must Watch)
+5. Static Methods & this Keyword – Part 3            **(Must Watch)** : 
    https://youtu.be/PlWIUnIL4AY?si=zVpOMz4onF_9Jghr  
 
-6. this Keyword & Encapsulation – Part 4             (Must Watch)
+6. this Keyword & Encapsulation – Part 4             **(Must Watch)** : 
    https://youtu.be/TtFH9HT72Rc?si=Kma67iHMRSHnGj-Q  
 
-7. Encapsulation & Abstraction – Part 5              (Must Watch)
+7. Encapsulation & Abstraction – Part 5              **(Must Watch)** : 
    https://youtu.be/ciLr99fXavI?si=ocwGZhQmD2QwsaZl  
 
-8. Inheritance & Polymorphism – Part 6               (Can be skipped if running out time)
+8. Inheritance & Polymorphism – Part 6               **(Can be skipped if running out time)**: 
    https://youtu.be/vdq2QC3ruEU?si=9X2WuC-x-KsfJPwj  
 
-9. OOP Q&A & Homework – Part 7                       (Can be skipped if running out time)
+9. OOP Q&A & Homework – Part 7                       **(Can be skipped if running out time)** : 
    https://youtu.be/zKssBqAk_DM?si=qluRloMXksrYBmfl  
 
-10. Introduction to sObjects – Part 1                (Must Watch)
+10. Introduction to sObjects – Part 1                **(Must Watch)** : 
    https://youtu.be/VJH4IVd39xE?si=ZTeVkoJeGy-eK-ej  
 
-11. Bulk Inserts & Related Records – Part 2          (Must Watch)
+11. Bulk Inserts & Related Records – Part 2          **(Must Watch)**: 
    https://youtu.be/Y_rwHUThYqY?si=am9PgEnayEbqYIWy  
 
-12. Generic sObjects & Casting – Part 3              (Can be skipped if running out time)
+12. Generic sObjects & Casting – Part 3              **(Can be skipped if running out time)** : 
    https://youtu.be/aKeVNijSjjI?si=nHMi4bjccEFqJy1C  
 
-13. Best Practices for Working with sObjects – Part 4  (Must Watch)
+13. Best Practices for Working with sObjects – Part 4  **(Must Watch)** : 
    https://youtu.be/XSLlyY0xK0w?si=QvVPbCC3LayPQgYr  
 
 ---
