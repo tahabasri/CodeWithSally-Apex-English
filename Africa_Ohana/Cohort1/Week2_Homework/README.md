@@ -63,7 +63,7 @@ Below are the required videos for Week 2:
 
 ### **Do Everything I Do in the Videos**
 
-Recreate every example shown in videos 13–25, including:
+Recreate every example shown in videos 1-13, including:
 
 - Map creation, iteration & methods  
 - OOP examples (classes, methods, constructors)  
