@@ -134,8 +134,6 @@ This week, **Code With Sally** is excited to introduce additional hands-on codin
 
 A huge thank you to **Saman Attar** for supporting the Africa Ohana Cohort 🙌
 
----
-
 ### 🔥 Choose **any 3–5 challenges** to complete from each category (From Camp Apex):
 
 1. **Variables**: https://www.campapex.org/practice/variables  
